@@ -1,10 +1,61 @@
 title: Coder-Collaboration
 description: Learn how to use Git and Github for Collaboration
 steps:
-  - course: githubtraining/introduction-to-github
-    description: The first step in your course
-  - link: 'https://lab.github.com'
-    title: Check out Learning Lab for more courses!
+  - title: Intro to Git
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
+    link: >-
+      https://www.youtube.com/watch?v=L4zbgo7KFoA&list=PLY6oTPmKnKbYjGEm9nLowExbgkI-epIgg&index=7&t=9s
+    description: Learn the Basics of Working with Git in Terminal
+  - title: Setting Up SSH
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
+    course: ''
+    description: Setup SSH for Github Authentication
+    link: >-
+      https://www.youtube.com/watch?v=6u84sACs0v0&list=PLY6oTPmKnKbYjGEm9nLowExbgkI-epIgg&index=8
+  - title: Work with Git Remotes
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
+    link: >-
+      https://www.youtube.com/watch?v=TOsVVxXdtu8&list=PLY6oTPmKnKbYjGEm9nLowExbgkI-epIgg&index=9&t=2s
     description: >-
-      There are many more courses available on Learning Lab for you to check
-      out.
+      How to push your local Git Repo to Remotes like Github, Gitlab and
+      Bitbucket
+  - title: Learning to Review Pull Requests
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
+    course: githubtraining/reviewing-pull-requests
+    link: Take Github Lab Course
+  - title: Learning How to Deal with Merge Conflicts
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
+    course: githubtraining/managing-merge-conflicts
+    link: Take Github Lab Course
+  - title: Group Project Workflow Part 1
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
+    link: >-
+      https://www.youtube.com/watch?v=llDIbfSrRB8&list=PLY6oTPmKnKbYjGEm9nLowExbgkI-epIgg&index=42
+    description: Scrum Boards & Branches
+  - title: Group Project Workflow Part 2
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
+    course: ''
+    link: >-
+      https://www.youtube.com/watch?v=n1AfM6fuc9M&list=PLY6oTPmKnKbYjGEm9nLowExbgkI-epIgg&index=43
+    description: Github and Pull Requests
